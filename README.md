@@ -1,4 +1,4 @@
-# Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering
+# Uncertainty-aware Biased Training for Drone-assisted Road Scene Synthesis
 
 [Tao Lu](https://github.com/inspirelt), [Mulin Yu](https://scholar.google.com/citations?user=w0Od3hQAAAAJ), [Linning Xu](https://eveneveno.github.io/lnxu), [Yuanbo Xiangli](https://kam1107.github.io/), [Limin Wang](https://wanglimin.github.io/), [Dahua Lin](http://dahua.site/), [Bo Dai](https://daibo.info/) <br />
 
