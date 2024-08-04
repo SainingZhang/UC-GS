@@ -14,7 +14,7 @@ class="center">
 </p>
 
 
-We introduce Scaffold-GS, which uses anchor points to distribute local 3D Gaussians, and predicts their attributes on-the-fly based on viewing direction and distance within the view frustum.
+We introduce UC-GS, a novel uncertainty-aware 3D-GS training paradigm to effectively use aerial imagery to enhance the NVS of road views.
 
 Our method performs superior on scenes with challenging observing views. e.g. transparency, specularity, reflection, texture-less regions and fine-scale details.
 
