@@ -66,66 +66,10 @@ bash ./single_train.sh
 
 ## Evaluation
 
-We've integrated the rendering and metrics calculation process into the training code. So, when completing training, the ```rendering results```, ```fps``` and ```quality metrics``` will be printed automatically. And the rendering results will be save in the log dir. Mind that the ```fps``` is roughly estimated by 
-
-```
-torch.cuda.synchronize();t_start=time.time()
-rendering...
-torch.cuda.synchronize();t_end=time.time()
-```
-
-which may differ somewhat from the original 3D-GS, but it does not affect the analysis.
-
-Meanwhile, we keep the manual rendering function with a similar usage of the counterpart in [3D-GS](https://github.com/graphdeco-inria/gaussian-splatting), one can run it by 
-
 ```
 python render.py -m <path to trained model> # Generate renderings
 python metrics.py -m <path to trained model> # Compute error metrics on renderings
 ```
-
-## Viewer
-
-The [viewer](https://github.com/city-super/Scaffold-GS/tree/main/SIBR_viewers) for Scaffold-GS is available now. 
-
-Recommended dataset structure in the source path location:
-
-```
-<location>
-|---sparse
-    |---0
-        |---cameras.bin
-        |---images.bin
-        |---points3D.bin
-```
-
-or
-
-```
-<location>
-|---points3D.ply
-|---transforms.json
-```
-
-Recommended checkpoint  structure in the model path location:
-
-```
-<location>
-|---point_cloud
-|   |---point_cloud.ply
-|   |---color_mlp.pt
-|   |---cov_mlp.pt
-|   |---opacity_mlp.pt
-(|   |---embedding_appearance.pt)
-|---cfg_args
-|---cameras.json
-(|---input.ply)
-```
-
-
-## Contact
-
-- Tao Lu: taolu@smail.nju.edu.cn
-- Mulin Yu: yumulin@pjlab.org.cn
 
 ## Citation
 
