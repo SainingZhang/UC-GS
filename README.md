@@ -208,10 +208,6 @@ If you find our work helpful, please consider citing:
 }
 ```
 
-## LICENSE
+## Related Work
 
-Please follow the LICENSE of [3D-GS](https://github.com/graphdeco-inria/gaussian-splatting).
-
-## Acknowledgement
-
-We thank all authors from [3D-GS](https://github.com/graphdeco-inria/gaussian-splatting) for presenting such an excellent work.
+[Scaffold-GS]([https://github.com/graphdeco-inria/gaussian-splatting](https://github.com/city-super/Scaffold-GS))
