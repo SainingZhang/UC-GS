@@ -48,41 +48,10 @@ conda activate uc_gs
 
 ## Data
 
-
-
-
-
-
-### Custom Data
-
-For custom data, you should process the image sequences with [Colmap](https://colmap.github.io/) to obtain the SfM points and camera poses. Then, place the results into ```data/``` folder.
+The Synthetic dataset is available in [Google Drive].
 
 
 ## Training
-
-### Training multiple scenes
-
-To train multiple scenes in parallel, we provide batch training scripts: 
-
- - Tanks&Temples: ```train_tnt.sh```
- - MipNeRF360: ```train_mip360.sh```
- - BungeeNeRF: ```train_bungee.sh```
- - Deep Blending: ```train_db.sh```
- - Nerf Synthetic: base ->```train_nerfsynthetic.sh```; with warmup->```train_nerfsynthetic_withwarmup.sh```
-
- run them with 
-
- ```
-bash train_xxx.sh
- ```
-
- > Notice 1: Make sure you have enough GPU cards and memories to run these scenes at the same time.
-
- > Notice 2: Each process occupies many cpu cores, which may slow down the training process. Set ```torch.set_num_threads(32)``` accordingly in the ```train.py``` to alleviate it.
-
-### Training a single scene
-
-For training a single scene, modify the path and configurations in ```single_train.sh``` accordingly and run it:
 
 ```
 bash ./single_train.sh
@@ -93,14 +62,6 @@ bash ./single_train.sh
 - gpu: specify the GPU id to run the code. '-1' denotes using the most idle GPU. 
 - voxel_size: size for voxelizing the SfM points, smaller value denotes finer structure and higher overhead, '0' means using the median of each point's 1-NN distance as the voxel size.
 - update_init_factor: initial resolution for growing new anchors. A larger one will start placing new anchor in a coarser resolution.
-
-> For these public datasets, the configurations of 'voxel_size' and 'update_init_factor' can refer to the above batch training script. 
-
-
-This script will store the log (with running-time code) into ```outputs/dataset_name/scene_name/exp_name/cur_time``` automatically.
-
-
-
 
 
 ## Evaluation
