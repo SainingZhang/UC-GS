@@ -210,4 +210,4 @@ If you find our work helpful, please consider citing:
 
 ## Related Work
 
-[Scaffold-GS]((https://github.com/city-super/Scaffold-GS))
+[Scaffold-GS](https://github.com/city-super/Scaffold-GS)
