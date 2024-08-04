@@ -3,7 +3,7 @@
 [Saining Zhang](https://sainingzhang.github.io/), Baijun Ye, Xiaoxue Chen, [Yuantao Chen](https://tao-11-chen.github.io/), Zongzheng Zhang, Cheng Peng, Yongliang Shi, [Hao Zhao](https://sites.google.com/view/fromandto) <br />
 
 
-[[`Project Page`]([https://city-super.github.io/scaffold-gs/](https://sainingzhang.github.io/project/uc-gs/))][[`arxiv`](https://arxiv.org/abs/2312.00109)
+[[`Project Page`](https://sainingzhang.github.io/project/uc-gs/)][[`arxiv`](https://arxiv.org/abs/2312.00109)]
 
 ## News
 
