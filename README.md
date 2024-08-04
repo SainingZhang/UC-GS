@@ -16,7 +16,6 @@ class="center">
 
 We introduce UC-GS, a novel uncertainty-aware 3D-GS training paradigm to effectively use aerial imagery to enhance the NVS of road views.
 
-Our method performs superior on scenes with challenging observing views. e.g. transparency, specularity, reflection, texture-less regions and fine-scale details.
 
 <p align="center">
 <img src="assets/teaser.png" width=100% height=100% 
