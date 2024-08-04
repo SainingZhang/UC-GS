@@ -34,8 +34,8 @@ We tested on a server configured with Ubuntu 18.04, cuda 11.6 and gcc 9.4.0. Oth
 1. Clone this repo:
 
 ```
-git clone https://github.com/city-super/Scaffold-GS.git --recursive
-cd Scaffold-GS
+git clone https://github.com/SainingZhang/UC-GS.git --recursive
+cd UC-GS
 ```
 
 2. Install dependencies
@@ -43,43 +43,15 @@ cd Scaffold-GS
 ```
 SET DISTUTILS_USE_SDK=1 # Windows only
 conda env create --file environment.yml
-conda activate scaffold_gs
+conda activate uc_gs
 ```
 
 ## Data
 
-First, create a ```data/``` folder inside the project path by 
-
-```
-mkdir data
-```
-
-The data structure will be organised as follows:
-
-```
-data/
-├── dataset_name
-│   ├── scene1/
-│   │   ├── images
-│   │   │   ├── IMG_0.jpg
-│   │   │   ├── IMG_1.jpg
-│   │   │   ├── ...
-│   │   ├── sparse/
-│   │       └──0/
-│   ├── scene2/
-│   │   ├── images
-│   │   │   ├── IMG_0.jpg
-│   │   │   ├── IMG_1.jpg
-│   │   │   ├── ...
-│   │   ├── sparse/
-│   │       └──0/
-...
-```
 
 
-### Public Data
 
-The BungeeNeRF dataset is available in [Google Drive](https://drive.google.com/file/d/1nBLcf9Jrr6sdxKa1Hbd47IArQQ_X8lww/view?usp=sharing)/[百度网盘[提取码:4whv]](https://pan.baidu.com/s/1AUYUJojhhICSKO2JrmOnCA). The MipNeRF360 scenes are provided by the paper author [here](https://jonbarron.info/mipnerf360/). And we test on scenes ```bicycle, bonsai, counter, garden, kitchen, room, stump```. The SfM data sets for Tanks&Temples and Deep Blending are hosted by 3D-Gaussian-Splatting [here](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/input/tandt_db.zip). Download and uncompress them into the ```data/``` folder.
+
 
 ### Custom Data
 
