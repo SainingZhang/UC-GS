@@ -1,9 +1,9 @@
 # Drone-assisted Road Gaussian Splatting with Cross-view Uncertainty
 
-[Saining Zhang](https://sainingzhang.github.io/), Baijun Ye, [Linning Xu](https://eveneveno.github.io/lnxu), [Yuanbo Xiangli](https://kam1107.github.io/), [Limin Wang](https://wanglimin.github.io/), [Dahua Lin](http://dahua.site/), [Bo Dai](https://daibo.info/) <br />
+[Saining Zhang](https://sainingzhang.github.io/), Baijun Ye, Xiaoxue Chen, [Yuantao Chen](https://tao-11-chen.github.io/), Zongzheng Zhang, Cheng Peng, Yongliang Shi, [Hao Zhao](https://sites.google.com/view/fromandto) <br />
 
 
-[[`Project Page`](https://city-super.github.io/scaffold-gs/)][[`arxiv`](https://arxiv.org/abs/2312.00109)][[`Viewer`](https://drive.google.com/file/d/17nPVnRRxO4zMQJ_fKHm13HzvD0wUZ8XF/view?usp=sharing)]
+[[`Project Page`]([https://city-super.github.io/scaffold-gs/](https://sainingzhang.github.io/project/uc-gs/))][[`arxiv`](https://arxiv.org/abs/2312.00109)
 
 ## News
 
