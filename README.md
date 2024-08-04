@@ -49,7 +49,7 @@ conda activate uc_gs
 
 ## Data
 
-The Synthetic dataset is available in [Google Drive].
+The Synthetic dataset is available in [Google Drive](https://drive.google.com/file/d/1DjSB7GqORz5rUvB3KaAMIiGwX1mtmRjb/view?usp=sharing).
 
 
 ## Training
