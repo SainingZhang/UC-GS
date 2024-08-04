@@ -19,7 +19,7 @@ We introduce Scaffold-GS, which uses anchor points to distribute local 3D Gaussi
 Our method performs superior on scenes with challenging observing views. e.g. transparency, specularity, reflection, texture-less regions and fine-scale details.
 
 <p align="center">
-<img src="assets/teaser_big.png" width=100% height=100% 
+<img src="assets/teaser.png" width=100% height=100% 
 class="center">
 </p>
 
