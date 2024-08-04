@@ -7,8 +7,8 @@ function rand(){
 
 port=$(rand 10000 30000)
 
-lod=0
-iterations=30_000
+lod=35
+iterations=900_000
 warmup="False"
 while [[ "$#" -gt 0 ]]; do
     case $1 in
