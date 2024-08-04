@@ -1,4 +1,4 @@
-scene='mipnerf360/bicycle'
+scene='train1.5/scene'
 exp_name='baseline'
 voxel_size=0.001
 update_init_factor=16
