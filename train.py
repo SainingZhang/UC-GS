@@ -99,7 +99,7 @@ def training(dataset, opt, pipe, dataset_name, testing_iterations, saving_iterat
     progress_bar = tqdm(range(first_iter, opt.iterations), desc="Training progress")
     first_iter += 1
 
-    uc_file_path = '/DATA_EDS2/yebj/uc_gs/Scaffold-GS/uc/uc18_mm3.pkl'
+    uc_file_path = '/DATA_EDS2/yebj/uc_gs/Scaffold-GS/uc/uc.pkl'
 
     with open(uc_file_path, 'rb') as file:
         weight_dict = pickle.load(file)
