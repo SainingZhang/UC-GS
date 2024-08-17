@@ -72,20 +72,6 @@ python render.py -m <path to trained model> # Generate renderings
 python metrics.py -m <path to trained model> # Compute error metrics on renderings
 ```
 
-## Citation
-
-If you find our work helpful, please consider citing:
-
-```bibtex
-@inproceedings{scaffoldgs,
-  title={Scaffold-gs: Structured 3d gaussians for view-adaptive rendering},
-  author={Lu, Tao and Yu, Mulin and Xu, Linning and Xiangli, Yuanbo and Wang, Limin and Lin, Dahua and Dai, Bo},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={20654--20664},
-  year={2024}
-}
-```
-
 ## Related Work
 
 [Scaffold-GS](https://github.com/city-super/Scaffold-GS)
