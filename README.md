@@ -75,15 +75,11 @@ python metrics.py -m <path to trained model> # Compute error metrics on renderin
 ## Cite
 
 ```
-@misc{https://doi.org/10.48550/arxiv.2408.15242,
-  doi = {10.48550/ARXIV.2408.15242},
-  url = {https://arxiv.org/abs/2408.15242},
-  author = {Zhang,  Saining and Ye,  Baijun and Chen,  Xiaoxue and Chen,  Yuantao and Zhang,  Zongzheng and Peng,  Cheng and Shi,  Yongliang and Zhao,  Hao},
-  keywords = {Computer Vision and Pattern Recognition (cs.CV),  FOS: Computer and information sciences,  FOS: Computer and information sciences},
-  title = {Drone-assisted Road Gaussian Splatting with Cross-view Uncertainty},
-  publisher = {arXiv},
-  year = {2024},
-  copyright = {arXiv.org perpetual,  non-exclusive license}
+@article{zhang2024drone,
+  title={Drone-assisted Road Gaussian Splatting with Cross-view Uncertainty},
+  author={Zhang, Saining and Ye, Baijun and Chen, Xiaoxue and Chen, Yuantao and Zhang, Zongzheng and Peng, Cheng and Shi, Yongliang and Zhao, Hao},
+  journal={arXiv preprint arXiv:2408.15242},
+  year={2024}
 }
 ```
 
